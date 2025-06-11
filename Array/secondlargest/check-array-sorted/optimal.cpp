@@ -18,5 +18,7 @@ int main()
 {
     int arr[]={1,2,3,4,5},n=5;
     bool ans = isSorted(arr,n);
-    
+    if (ans) cout<<"True"<<endl;
+    else cout<<"False";
+    return 0;
 }
