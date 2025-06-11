@@ -15,3 +15,11 @@ bool isSorted(int arr[],n)
     }
     return true;
 }
+int main()
+{
+    int arr[]={1,2,3,4,5},n=5;
+    bool ans isSorted(arr[],n);//ans =result of the fun cell
+    if (ans) cout<<"True"<<endl;
+    else cout<<"False"<<endl;
+    return 0;
+}
