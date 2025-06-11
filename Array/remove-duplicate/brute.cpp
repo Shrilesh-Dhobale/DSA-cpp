@@ -16,3 +16,14 @@ int removeDup(int arr[],int n)
     }
     return k;
 }
+int main()
+{
+    int arr[]={1,1,2,2,2,3,3};
+    int n=sizeof(arr)/sizeof(arr[0]);
+    int k=removeDup(arr,n);
+    cout<<"The array after removing duplicate value is"<<endl;
+    for(int i=0;i<k;i++)
+    {
+        cout<<arr[i]<<endl;
+    }
+}
