@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bool isSorted(int arr[],n)
+bool isSorted(int arr[],int n)
 {
     for(int i=0; i<n ;i++)
     {
@@ -18,7 +18,7 @@ bool isSorted(int arr[],n)
 int main()
 {
     int arr[]={1,2,3,4,5},n=5;
-    bool ans isSorted(arr[],n);//ans =result of the fun cell
+    bool ans=isSorted(arr,n);//ans =result of the fun cell
     if (ans) cout<<"True"<<endl;
     else cout<<"False"<<endl;
     return 0;
