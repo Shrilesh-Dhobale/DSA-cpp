@@ -14,3 +14,7 @@ bool isSorted(int arr[],int n)
     }
     return false;
 }
+int main()
+{
+    int arr[]={1,2,3,4,5},n=5;
+}
