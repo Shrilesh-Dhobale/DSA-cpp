@@ -19,4 +19,5 @@ int main()
 {
     int n=5;
     int arr[]={1,2,3,4,5};
+    solve(arr,n);
 }
