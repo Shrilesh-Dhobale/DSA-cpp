@@ -4,7 +4,7 @@ using namespace std;
 void solve(int arr[],int n)
 {
     int temp[n];
-    for(int i=1;i<n;i++)//
+    for(int i=1;i<n;i++)//siz
     {
         temp[n-1]=arr[i];
     }
@@ -14,4 +14,9 @@ void solve(int arr[],int n)
         cout<<arr[i];
     }
     cout<<endl;
+}
+int main()
+{
+    int n=5;
+    int arr[]={1,2,3,4,5};
 }
