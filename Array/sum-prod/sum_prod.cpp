@@ -1,8 +1,25 @@
 #include<iostream>
 using namespace std;
 
-void getSum(int arr[],int n)
+int getSum(int arr[],int n)
 {
-    n=sizeof(arr)/sizeof(arr[0]);
-    
+    int sum=0;
+    for(int i;i<n;i++)
+    {
+        sum+=arr[i];
+    }
+    return sum;
+}
+int main()
+{   
+    int n;
+    cout<<"Enter size of array: ";
+    cin>>n;
+
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    int sum=getSum(arr,n);
 }
